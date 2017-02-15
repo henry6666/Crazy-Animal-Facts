@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB9DC8C1D37AB2C007F206C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DC8B1D37AB2C007F206C /* AppDelegate.swift */; };
+		BAB9DC8E1D37AB2C007F206C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DC8D1D37AB2C007F206C /* ViewController.swift */; };
+		BAB9DC911D37AB2C007F206C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC8F1D37AB2C007F206C /* Main.storyboard */; };
+		BAB9DC931D37AB2C007F206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC921D37AB2C007F206C /* Assets.xcassets */; };
+		BAB9DC961D37AB2C007F206C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC941D37AB2C007F206C /* LaunchScreen.storyboard */; };
+		BAB9DCAE1D37AD87007F206C /* 2014_09_Cute-Cat-16.gif.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA41D37AD87007F206C /* 2014_09_Cute-Cat-16.gif.jpeg */; };
+		BAB9DCAF1D37AD87007F206C /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA51D37AD87007F206C /* banner@2x.png */; };
+		BAB9DCB01D37AD87007F206C /* cat-desktop.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA61D37AD87007F206C /* cat-desktop.jpeg */; };
+		BAB9DCB11D37AD87007F206C /* Cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA71D37AD87007F206C /* Cat2.png */; };
+		BAB9DCB21D37AD87007F206C /* Cat3.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA81D37AD87007F206C /* Cat3.png */; };
+		BAB9DCB31D37AD87007F206C /* Cat4.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCA91D37AD87007F206C /* Cat4.png */; };
+		BAB9DCB41D37AD87007F206C /* cat5.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCAA1D37AD87007F206C /* cat5.png */; };
+		BAB9DCB51D37AD87007F206C /* Cute-Cat-Pic-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCAB1D37AD87007F206C /* Cute-Cat-Pic-8.jpg */; };
+		BAB9DCB61D37AD87007F206C /* shattered_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCAC1D37AD87007F206C /* shattered_@2X.png */; };
+		BAB9DCB71D37AD87007F206C /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DCAD1D37AD87007F206C /* unnamed.png */; };
+		BAB9DCBA1D37BA61007F206C /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DCB91D37BA61007F206C /* Facts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAB9DC881D37AB2C007F206C /* Crazy Animal Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Animal Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB9DC8B1D37AB2C007F206C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB9DC8D1D37AB2C007F206C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAB9DC901D37AB2C007F206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB9DC921D37AB2C007F206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB9DC951D37AB2C007F206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB9DC971D37AB2C007F206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB9DCA41D37AD87007F206C /* 2014_09_Cute-Cat-16.gif.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014_09_Cute-Cat-16.gif.jpeg"; sourceTree = "<group>"; };
+		BAB9DCA51D37AD87007F206C /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		BAB9DCA61D37AD87007F206C /* cat-desktop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-desktop.jpeg"; sourceTree = "<group>"; };
+		BAB9DCA71D37AD87007F206C /* Cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat2.png; sourceTree = "<group>"; };
+		BAB9DCA81D37AD87007F206C /* Cat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat3.png; sourceTree = "<group>"; };
+		BAB9DCA91D37AD87007F206C /* Cat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat4.png; sourceTree = "<group>"; };
+		BAB9DCAA1D37AD87007F206C /* cat5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat5.png; sourceTree = "<group>"; };
+		BAB9DCAB1D37AD87007F206C /* Cute-Cat-Pic-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cute-Cat-Pic-8.jpg"; sourceTree = "<group>"; };
+		BAB9DCAC1D37AD87007F206C /* shattered_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shattered_@2X.png"; sourceTree = "<group>"; };
+		BAB9DCAD1D37AD87007F206C /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		BAB9DCB91D37BA61007F206C /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB9DC851D37AB2C007F206C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB9DC7F1D37AB2C007F206C = {
+			isa = PBXGroup;
+			children = (
+				BAB9DC8A1D37AB2C007F206C /* Crazy Animal Facts */,
+				BAB9DC891D37AB2C007F206C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB9DC891D37AB2C007F206C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DC881D37AB2C007F206C /* Crazy Animal Facts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB9DC8A1D37AB2C007F206C /* Crazy Animal Facts */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DC8B1D37AB2C007F206C /* AppDelegate.swift */,
+				BAB9DC8D1D37AB2C007F206C /* ViewController.swift */,
+				BAB9DCB91D37BA61007F206C /* Facts.swift */,
+				BAB9DC8F1D37AB2C007F206C /* Main.storyboard */,
+				BAB9DC921D37AB2C007F206C /* Assets.xcassets */,
+				BAB9DC941D37AB2C007F206C /* LaunchScreen.storyboard */,
+				BAB9DCB81D37AD97007F206C /* images */,
+				BAB9DC971D37AB2C007F206C /* Info.plist */,
+			);
+			path = "Crazy Animal Facts";
+			sourceTree = "<group>";
+		};
+		BAB9DCB81D37AD97007F206C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DCA41D37AD87007F206C /* 2014_09_Cute-Cat-16.gif.jpeg */,
+				BAB9DCA51D37AD87007F206C /* banner@2x.png */,
+				BAB9DCA61D37AD87007F206C /* cat-desktop.jpeg */,
+				BAB9DCA71D37AD87007F206C /* Cat2.png */,
+				BAB9DCA81D37AD87007F206C /* Cat3.png */,
+				BAB9DCA91D37AD87007F206C /* Cat4.png */,
+				BAB9DCAA1D37AD87007F206C /* cat5.png */,
+				BAB9DCAB1D37AD87007F206C /* Cute-Cat-Pic-8.jpg */,
+				BAB9DCAC1D37AD87007F206C /* shattered_@2X.png */,
+				BAB9DCAD1D37AD87007F206C /* unnamed.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB9DC871D37AB2C007F206C /* Crazy Animal Facts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB9DC9A1D37AB2C007F206C /* Build configuration list for PBXNativeTarget "Crazy Animal Facts" */;
+			buildPhases = (
+				BAB9DC841D37AB2C007F206C /* Sources */,
+				BAB9DC851D37AB2C007F206C /* Frameworks */,
+				BAB9DC861D37AB2C007F206C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crazy Animal Facts";
+			productName = "Crazy Animal Facts";
+			productReference = BAB9DC881D37AB2C007F206C /* Crazy Animal Facts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB9DC801D37AB2C007F206C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Aguinaga";
+				TargetAttributes = {
+					BAB9DC871D37AB2C007F206C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZGKM2V59UB;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = BAB9DC831D37AB2C007F206C /* Build configuration list for PBXProject "Crazy Animal Facts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB9DC7F1D37AB2C007F206C;
+			productRefGroup = BAB9DC891D37AB2C007F206C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB9DC871D37AB2C007F206C /* Crazy Animal Facts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB9DC861D37AB2C007F206C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9DCB31D37AD87007F206C /* Cat4.png in Resources */,
+				BAB9DCB51D37AD87007F206C /* Cute-Cat-Pic-8.jpg in Resources */,
+				BAB9DCB71D37AD87007F206C /* unnamed.png in Resources */,
+				BAB9DCAE1D37AD87007F206C /* 2014_09_Cute-Cat-16.gif.jpeg in Resources */,
+				BAB9DC961D37AB2C007F206C /* LaunchScreen.storyboard in Resources */,
+				BAB9DC931D37AB2C007F206C /* Assets.xcassets in Resources */,
+				BAB9DCB01D37AD87007F206C /* cat-desktop.jpeg in Resources */,
+				BAB9DCB11D37AD87007F206C /* Cat2.png in Resources */,
+				BAB9DCB41D37AD87007F206C /* cat5.png in Resources */,
+				BAB9DC911D37AB2C007F206C /* Main.storyboard in Resources */,
+				BAB9DCB61D37AD87007F206C /* shattered_@2X.png in Resources */,
+				BAB9DCB21D37AD87007F206C /* Cat3.png in Resources */,
+				BAB9DCAF1D37AD87007F206C /* banner@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB9DC841D37AB2C007F206C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9DC8E1D37AB2C007F206C /* ViewController.swift in Sources */,
+				BAB9DCBA1D37BA61007F206C /* Facts.swift in Sources */,
+				BAB9DC8C1D37AB2C007F206C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB9DC8F1D37AB2C007F206C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB9DC901D37AB2C007F206C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB9DC941D37AB2C007F206C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB9DC951D37AB2C007F206C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB9DC981D37AB2C007F206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB9DC991D37AB2C007F206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB9DC9B1D37AB2C007F206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGKM2V59UB;
+				INFOPLIST_FILE = "Crazy Animal Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry.aguinaga.Crazy-Animal-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BAB9DC9C1D37AB2C007F206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGKM2V59UB;
+				INFOPLIST_FILE = "Crazy Animal Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry.aguinaga.Crazy-Animal-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB9DC831D37AB2C007F206C /* Build configuration list for PBXProject "Crazy Animal Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9DC981D37AB2C007F206C /* Debug */,
+				BAB9DC991D37AB2C007F206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB9DC9A1D37AB2C007F206C /* Build configuration list for PBXNativeTarget "Crazy Animal Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9DC9B1D37AB2C007F206C /* Debug */,
+				BAB9DC9C1D37AB2C007F206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB9DC801D37AB2C007F206C /* Project object */;
+}
